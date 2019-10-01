@@ -1,0 +1,18 @@
+Tests
+-----
+* Test the code with databases that have spaces in the names
+* Test the code on various operating systems including BSD; try to make it as portable as possible
+
+Funcionality
+-------------
+* Support to direct output to log file
+  - Log file should be configurable
+
+Package Management
+------------------
+* Packages for popular operating systems, Ubuntu, CentOS, FreeBSD
+  - Installer should automatically register a crontab in the daily crontab for root
+
+Utilities
+---------
+* Separate scripts to retrieve backups and optionally load them into the database
