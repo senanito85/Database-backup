@@ -1,0 +1,28 @@
+{
+"preScript":"/SYSTEM/phpBackup/preBackup.sh",
+"postScript":"/SYSTEM/phpBackup/postBackup.sh",
+"logDir":"/SYSTEM/LOGS",
+"backupTitle": "Bizwear STYLEman Backup",
+"targetDir": "/resource1",
+"sendEmails": true,
+"targetType": "copy",
+"targetHost": "127.0.0.1",
+"targetUser": "osl",
+"targetPass": "oslmelb",
+"archiveType": "simple",
+"SMTPHost": "localhost",
+"SMTPUseAuth": false,
+"SMTPUser": "support@optionsystems.com.au",
+"SMTPPass" : "o.s.l.melb",
+"EmailTo" : "johnc@optionsystems.com.au,Charith.Ariyatillake@asta.com.au",
+"EmailFrom" : "johnc@optionsystems.com.au",
+"sources": [
+	{"source": "/DATA/bizwear"},
+	{"source": "/DATA/dbseg.backup"},
+	{"source": "/SYSTEM/scripts"},
+	{"source": "/SYSTEM/phpBackup"},
+	{"source": "/SYSTEM/sman"}
+
+],
+"exclude": ["/DATA/db/dump_load","/SYSTEM/sman/r"]
+}	
