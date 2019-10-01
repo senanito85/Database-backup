@@ -9,10 +9,10 @@
  * - v1.0.0		: 
  * - v1.1.0		: 2017-11-28 : Add standard copy functionality
  *
- * @author John Comerford <johnc@optionsystems.com.au>
+ * @author Sanan Ibrahimov
  * @package System Administrator
  * @subpackage Core
- * @copyright John Comerford - 2013
+ * @copyright Sanan Ibrahimov 2019
  * @license All rights reserved
  * @version v1.1.0
  */
