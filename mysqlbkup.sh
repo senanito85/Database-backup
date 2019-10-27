@@ -1,9 +1,7 @@
 #!/bin/bash
 # --------------------------------------------------------------------------------
 # mysqlbkup
-# (c) Nathan Nobbe 2014
-# http://quickshiftin.com
-# quickshiftin@gmail.com
+# (c) Sanan Ibrahimoff 2017
 #
 # A simple MySQL backup script in BASH.
 #
